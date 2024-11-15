@@ -1,0 +1,5 @@
+<div class="list" *ngFor="let user of users">
+    <p class="list-item">{{user.id}}</p>
+    <p class="list-item">{{user.nombre}}</p>
+    <a (click)="llevameAlDetalle(user.id)" class="list-link">Ver Detalle</a>
+  </div>
